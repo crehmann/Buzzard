@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Buzzard")(type "KiCad")(uri "${KIPRJMOD}/Buzzard.kicad_sym")(options "")(descr ""))
+  (lib (name "kbd")(type "Legacy")(uri "C:/Users/Christoph/Desktop/kbd-master/kicad-symbols/kbd.lib")(options "")(descr ""))
+)
