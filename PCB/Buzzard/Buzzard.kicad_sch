@@ -3448,7 +3448,7 @@
     (property "Value" "Haptic Buzz" (id 1) (at 80.0101 171.7178 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" (id 2) (at 77.978 170.18 0)
+    (property "Footprint" "Buzzard:Pimoroni Haptic Buzz DRV2605L Driver" (id 2) (at 77.978 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 77.978 170.18 0)
@@ -3708,7 +3708,7 @@
       (reference "J3") (unit 1) (value "SCL") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/15f956f5-7f0a-47a7-8d82-945c44e3054e"
-      (reference "J4") (unit 1) (value "Haptic Buzz") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical")
+      (reference "J4") (unit 1) (value "Haptic Buzz") (footprint "Buzzard:Pimoroni Haptic Buzz DRV2605L Driver")
     )
     (path "/c9007f78-8c46-454a-961b-6abc2490a937"
       (reference "J5") (unit 1) (value "TrackPoint") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical")
