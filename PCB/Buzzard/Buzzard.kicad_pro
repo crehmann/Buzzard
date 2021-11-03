@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|219475803|98460000|aa044028-9d18-4b18-a9cf-2ebe67d46d64|12dad08d-3ee1-40d0-bf38-d2de024d872f"
+      ],
       "meta": {
         "version": 2
       },
@@ -380,7 +382,6 @@
         "name": "Power",
         "nets": [
           "BAT+",
-          "BAT-",
           "GND",
           "VCC"
         ],
