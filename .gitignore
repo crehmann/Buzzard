@@ -25,3 +25,5 @@ fp-info-cache
 *.xml
 *.csv
 Buzzard-backups
+gerber
+TopPlate-backups
