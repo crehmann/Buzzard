@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Buzzard Split Keyboard")
+    (date "2021-11-13")
+    (rev "1")
+  )
+
   (lib_symbols
     (symbol "Buzzard:Hole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 0 0)
@@ -3147,7 +3153,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e7932f86-c33d-462c-8de4-76ea75a5e908)
     (property "Reference" "JP17" (id 0) (at 191.516 87.3718 0))
-    (property "Value" "LCD CLK Jumper" (id 1) (at 191.516 89.6705 0))
+    (property "Value" "LCD EIN Jumper" (id 1) (at 191.516 89.6705 0))
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (id 2) (at 191.516 92.456 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3162,7 +3168,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 62c268eb-d4cf-42e9-a63f-1492f947d6e7)
     (property "Reference" "JP18" (id 0) (at 191.516 95.2458 0))
-    (property "Value" "LCD CS Jumper" (id 1) (at 191.516 97.5445 0))
+    (property "Value" "LCD DISP Jumper" (id 1) (at 191.516 97.5445 0))
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (id 2) (at 191.516 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3177,7 +3183,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b2081f34-5deb-486f-996a-ccef8d60faf4)
     (property "Reference" "JP19" (id 0) (at 191.516 141.2198 0))
-    (property "Value" "LCD CLK Jumper" (id 1) (at 191.516 143.5185 0))
+    (property "Value" "LCD EIN Jumper" (id 1) (at 191.516 143.5185 0))
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (id 2) (at 191.516 146.304 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3192,7 +3198,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bfad2d1f-46da-4d69-9f17-d22bc1bd4fe6)
     (property "Reference" "JP20" (id 0) (at 191.516 149.0938 0))
-    (property "Value" "LCD CS Jumper" (id 1) (at 191.516 151.3925 0))
+    (property "Value" "LCD DISP Jumper" (id 1) (at 191.516 151.3925 0))
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (id 2) (at 191.516 154.178 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4086,16 +4092,16 @@
       (reference "JP16") (unit 1) (value "SDA Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/e7932f86-c33d-462c-8de4-76ea75a5e908"
-      (reference "JP17") (unit 1) (value "LCD CLK Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+      (reference "JP17") (unit 1) (value "LCD EIN Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/62c268eb-d4cf-42e9-a63f-1492f947d6e7"
-      (reference "JP18") (unit 1) (value "LCD CS Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+      (reference "JP18") (unit 1) (value "LCD DISP Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/b2081f34-5deb-486f-996a-ccef8d60faf4"
-      (reference "JP19") (unit 1) (value "LCD CLK Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+      (reference "JP19") (unit 1) (value "LCD EIN Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/bfad2d1f-46da-4d69-9f17-d22bc1bd4fe6"
-      (reference "JP20") (unit 1) (value "LCD CS Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+      (reference "JP20") (unit 1) (value "LCD DISP Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/48543692-40e8-46fb-b05c-77cf9495e218"
       (reference "R1") (unit 1) (value "4.7kΩ") (footprint "Buzzard:Resistor-TH_SMD")
