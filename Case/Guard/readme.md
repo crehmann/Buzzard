@@ -1,0 +1,1 @@
+**Note:** I have not tested the guard with a laser cutter service or similar. I cut it by hand which is a lot less precise and I don't know if the dimensions are correct when using a laser cutter (service)
